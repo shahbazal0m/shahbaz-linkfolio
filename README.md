@@ -1,0 +1,56 @@
+# Shahbaz Alam | Linkfolio
+
+💻 MERN Full Stack Web Developer | Developer Portfolio & Linkfolio Profile
+
+---
+
+## 🔹 Project Overview
+Ye project ek **Linkfolio-style personal developer profile** hai jo **modern, responsive aur professional look** provide karta hai.  
+Isme tumhare **profile photo, bio, main social links, footer icons aur dark/light mode toggle** included hai.
+
+---
+
+## 🔹 Features
+- Glassmorphism design with **floating profile image**  
+- **Main Links Section:** LinkedIn, GitHub, Twitter  
+- **Footer Icons:** LinkedIn, GitHub, Twitter, Email  
+- Dark/Light mode toggle with **modern gradient backgrounds**  
+- Responsive for **mobile & desktop**  
+- Smooth hover animations and shine effects on links  
+
+---
+
+## 🔹 Technologies Used
+- HTML5  
+- CSS3 (Glassmorphism, animations, responsive design)  
+- JavaScript (Dark/Light mode toggle)  
+- Font Awesome Icons  
+
+---
+
+## 🔹 How to Use / Run
+1. Clone the repository:
+```bash
+[git clone](https://github.com/shahbazal0m/shahbaz-linkfolio)
+2. Open index.html in your browser.
+
+3. Replace profile.jpg with your own photo.
+
+4. Update social links in index.html with your real LinkedIn, GitHub, Twitter URLs and your email.
+
+## 🔹 Folder Structure
+linkfolio/
+├── index.html
+├── style.css
+├── script.js
+├── profile.jpg
+└── README.md
+
+## 🔹 Contact
+- [LinkedIn:](https://www.linkedin.com/in/iamshahbaz-alam)
+
+- [GitHub:](https://github.com/shahbazal0m)
+
+- [Twitter:](https://x.com/shahbaz_al0m)
+
+- [Email:](mailto:shahbazalam4842@gmail.com)

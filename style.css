@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  transition: background 0.3s, color 0.3s;
+  overflow-x: hidden;
+}
+
+:root {
+  --text-color: #222;
+  --glass-bg: rgba(255, 255, 255, 0.15);
+  --glass-border: rgba(255, 255, 255, 0.3);
+  --link-bg: rgba(255, 255, 255, 0.2);
+  --link-hover: rgba(255, 255, 255, 0.35);
+}
+
+.dark-mode {
+  --text-color: #f4f4f9;
+  --glass-bg: rgba(0, 0, 0, 0.3);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --link-bg: rgba(0, 0, 0, 0.4);
+  --link-hover: rgba(255, 255, 255, 0.2);
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.light-mode {
+  --text-color: #222;
+  --glass-bg: rgba(255, 255, 255, 0.25);
+  --glass-border: rgba(255, 255, 255, 0.4);
+  --link-bg: rgba(255, 255, 255, 0.25);
+  --link-hover: rgba(255, 255, 255, 0.4);
+  background: linear-gradient(135deg, #f6f8ff, #dce0ff);
+}
+
+#theme-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.2s, background 0.3s;
+  color: var(--text-color);
+}
+
+#theme-toggle:hover {
+  transform: rotate(20deg) scale(1.1);
+}
+
+.container {
+  text-align: center;
+  margin-top: 80px;
+  padding: 25px;
+  border-radius: 15px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+  max-width: 420px;
+  width: 90%;
+  animation: fadeIn 1s ease-in-out;
+  color: var(--text-color);
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-14px); }
+  100% { transform: translateY(0px); }
+}
+
+.profile-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 3px solid var(--glass-border);
+  margin-bottom: 15px;
+  animation: float 4s ease-in-out infinite;
+}
+
+h1 {
+  margin: 10px 0 5px;
+  font-size: 24px;
+}
+
+.bio {
+  margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--text-color);
+}
+
+.links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+  background: var(--link-bg);
+  color: var(--text-color);
+  padding: 14px;
+  margin: 12px 0;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.links a:hover {
+  background: var(--link-hover);
+  transform: scale(1.05);
+}
+
+.links a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.5),
+    transparent
+  );
+  transition: 0.5s;
+}
+
+.links a:hover::before {
+  left: 100%;
+}
+
+
+footer {
+  margin-top: auto;
+  padding: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-color);
+  background: var(--glass-bg);
+  border-top: 1px solid var(--glass-border);
+  backdrop-filter: blur(10px);
+  width: 100%;
+}
+
+.social-icons {
+  margin-top: 8px;
+}
+
+.social-icons a {
+  color: var(--text-color);
+  margin: 0 8px;
+  font-size: 18px;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #fff;
+}
+
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .container {
+    padding: 18px;
+  }
+  .links a {
+    font-size: 14px;
+    padding: 12px;
+  }
+  .social-icons a {
+    font-size: 16px;
+    margin: 0 6px;
+  }
+}
