@@ -4,12 +4,6 @@
 
 ---
 
-## 🔹 Project Overview
-Ye project ek **Linkfolio-style personal developer profile** hai jo **modern, responsive aur professional look** provide karta hai.  
-Isme tumhare **profile photo, bio, main social links, footer icons aur dark/light mode toggle** included hai.
-
----
-
 ## 🔹 Features
 - Glassmorphism design with **floating profile image**  
 - **Main Links Section:** LinkedIn, GitHub, Twitter  
