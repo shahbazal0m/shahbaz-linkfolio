@@ -41,13 +41,11 @@ linkfolio/
 ├── profile.jpg
 └── README.md
 
-🔹 Contact
+## 🔹 Contact
+- [LinkedIn:](https://www.linkedin.com/in/iamshahbaz-alam)
 
-LinkedIn: https://www.linkedin.com/in/iamshahbaz-alam
+- [GitHub:](https://github.com/shahbazal0m)
 
-GitHub: https://github.com/shahbazal0m
+- [Twitter:](https://x.com/shahbaz_al0m)
 
-Twitter: https://x.com/shahbaz_al0m
-
-Email: shahbazalam4842@gmail.com
-
+- [Email:](mailto:shahbazalam4842@gmail.com)
