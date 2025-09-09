@@ -32,7 +32,7 @@
 
 4. Update social links in index.html with your real LinkedIn, GitHub, Twitter URLs and your email.
 
-## 🔹 Folder Structure
+🔹 Folder Structure
 linkfolio/
 ├── index.html
 ├── style.css
@@ -40,11 +40,11 @@ linkfolio/
 ├── profile.jpg
 └── README.md
 
-## 🔹 Contact
-- [LinkedIn:](https://www.linkedin.com/in/iamshahbaz-alam)
+🔹 Contact
+[LinkedIn:](https://www.linkedin.com/in/iamshahbaz-alam)
 
-- [GitHub:](https://github.com/shahbazal0m)
+[GitHub:](https://github.com/shahbazal0m)
 
-- [Twitter:](https://x.com/shahbaz_al0m)
+[Twitter:](https://x.com/shahbaz_al0m)
 
-- [Email:](mailto:shahbazalam4842@gmail.com)
+[Email:](mailto:shahbazalam4842@gmail.com)
