@@ -40,7 +40,9 @@ linkfolio/
 ├── profile.jpg
 └── README.md
 
-🔹 Contact
+---
+
+## 🔹 Contact
 [LinkedIn:](https://www.linkedin.com/in/iamshahbaz-alam)
 
 [GitHub:](https://github.com/shahbazal0m)
